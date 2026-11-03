@@ -31,8 +31,10 @@ These bulk-expression and inferred-abundance results do not establish cell-intri
 
 ## Repository status
 
-Both count matrices and four analysis figure PDFs are committed. Selected result tables and analysis scripts are included. No versioned release or DOI has been issued yet; create a release and archive it before citing this repository as a frozen data/code version.
+The repository contains the analysis scripts, processed count matrices, selected derived result tables, and figure files. The versioned v1.0.0 release is archived on Zenodo: https://doi.org/10.5281/zenodo.23913669.
 
 ## Citation
 
-A citation and versioned archive DOI will be added after the repository contents and manuscript are finalized.
+Please cite the versioned archive:
+
+Kafi AH. Cross-cohort transcriptomic analysis of hidradenitis suppurativa. Version 1.0.0. Zenodo. 2026. https://doi.org/10.5281/zenodo.23913669.
