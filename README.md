@@ -7,26 +7,21 @@ R analysis of two public hidradenitis suppurativa (HS) RNA-seq cohorts: paired d
 - **Discovery:** [GSE245451](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245451) — five matched lesion/perilesional pairs and six healthy samples.
 - **Validation:** [GSE151243](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151243) — 20 matched lesion/perilesional pairs.
 
-Expression count matrices are public on GEO and are not currently included in this repository.
-
 ## Repository contents
 
+- `data/processed/GSE245451/GSE245451_counts_matrix.tsv` — discovery count matrix.
+- `data/processed/GSE151243/GSE151243_Raw_gene_counts_matrix.txt.gz` — validation count matrix.
 - `scripts/01_deseq2_discovery.R` — discovery differential expression.
 - `scripts/02_ranked_gsea.R` — ranked Reactome and GO Biological Process enrichment.
 - `scripts/03_mcp_counter.R` — MCP-counter cohort analysis.
 - `scripts/04_volcano_primary.R` — volcano plot generation.
 - `scripts/05_deseq2_validation_audit.R` and `scripts/06_reproduce_shared_DEGs.R` — validation reproduction and shared-gene analysis.
 - `metadata/` — cohort sample sheets, sequencing run manifests, and software versions.
-- `results/` — sample QC, shared-gene tables, replicated pathway results, and MCP-counter tables.
+- `results/` — selected gene and pathway tables, MCP-counter outputs, QC summary, and figure PDFs.
 
 ## Reproducing the analysis
 
-Run commands from the repository root after obtaining the public count matrices from GEO and placing them at the paths expected by the scripts:
-
-- `data/processed/GSE245451/GSE245451_counts_matrix.tsv`
-- `data/processed/GSE151243/GSE151243_Raw_gene_counts_matrix.txt.gz`
-
-The workflows use R/Bioconductor packages. Versions recorded for the analysis are listed in `metadata/software_versions.txt`. Check each script for its required inputs and run order.
+Run commands from the repository root. The count matrices are included at the paths expected by the scripts. The workflows use R/Bioconductor packages; versions recorded for the analysis are listed in `metadata/software_versions.txt`. Check each script for its required inputs and run order.
 
 ## Summary of current results
 
@@ -36,7 +31,7 @@ These bulk-expression and inferred-abundance results do not establish cell-intri
 
 ## Repository status
 
-The analysis scripts and selected result tables are included. Count matrices and figure files are not currently committed. This repository has no versioned release or DOI yet, and should not be cited as a complete reproducibility archive until the remaining files are added and checked.
+Both count matrices and four analysis figure PDFs are committed. Selected result tables and analysis scripts are included. No versioned release or DOI has been issued yet; create a release and archive it before citing this repository as a frozen data/code version.
 
 ## Citation
 
