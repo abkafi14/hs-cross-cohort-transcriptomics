@@ -1,0 +1,17 @@
+sample_accession	sample_title	group	donor_id	counts_file
+GSM7842945	HS lesion_13	lesion	13	GSM7842945_HS1_13.counts.txt.gz
+GSM7842946	HS lesion_14	lesion	14	GSM7842946_HS1_14.counts.txt.gz
+GSM7842947	HS lesion_2	lesion	2	GSM7842947_HS1_2.counts.txt.gz
+GSM7842948	HS lesion_3	lesion	3	GSM7842948_HS1_3.counts.txt.gz
+GSM7842949	HS lesion_6	lesion	6	GSM7842949_HS1_6.counts.txt.gz
+GSM7842950	HS perilesional skin_13	perilesion	13	GSM7842950_HS2_13.counts.txt.gz
+GSM7842951	HS perilesional skin_14	perilesion	14	GSM7842951_HS2_14.counts.txt.gz
+GSM7842952	HS perilesional skin_2	perilesion	2	GSM7842952_HS2_2.counts.txt.gz
+GSM7842953	HS perilesional skin_3	perilesion	3	GSM7842953_HS2_3.counts.txt.gz
+GSM7842954	HS perilesional skin_6	perilesion	6	GSM7842954_HS2_6.counts.txt.gz
+GSM7842955	healthy skin_14	healthy	14	GSM7842955_K14.counts.txt.gz
+GSM7842956	healthy skin_3	healthy	3	GSM7842956_K3.counts.txt.gz
+GSM7842957	healthy skin_4	healthy	4	GSM7842957_K4.counts.txt.gz
+GSM7842958	healthy skin_6	healthy	6	GSM7842958_K6.counts.txt.gz
+GSM7842959	healthy skin_8	healthy	8	GSM7842959_K8.counts.txt.gz
+GSM7842960	healthy skin_9	healthy	9	GSM7842960_K9.counts.txt.gz
