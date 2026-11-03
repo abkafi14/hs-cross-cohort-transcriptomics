@@ -1,0 +1,13 @@
+{
+  "primary_samples": 16,
+  "groups": {
+    "lesion": 5,
+    "perilesion": 5,
+    "healthy": 6
+  },
+  "matrix_genes": 20817,
+  "raw_fastq_files_listed": 16,
+  "raw_fastq_expected_bytes": 1839745222,
+  "primary_processed_count_files": 16,
+  "validation_count_matrix_exists": true
+}
