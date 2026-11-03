@@ -7,7 +7,15 @@ Reproducible R analysis of two public hidradenitis suppurativa (HS) RNA-seq coho
 - **Discovery:** [GSE245451](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245451) — five matched lesion/perilesional pairs and six healthy samples.
 - **Validation:** [GSE151243](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151243) — 20 matched lesion/perilesional pairs.
 
-The expression data remain hosted by GEO and are not redistributed here.
+Expression count matrices remain hosted by GEO and are not included in this repository.
+
+## Repository contents
+
+- `scripts/01_deseq2_discovery.R`: donor-blocked lesion-versus-perilesional analysis and secondary comparisons against healthy samples.
+- `metadata/`: sample metadata for both cohorts.
+- `results/GSE245451_count_qc.tsv`: sample-level count quality-control summary.
+
+The discovery script expects the processed count matrix at `data/processed/GSE245451/GSE245451_counts_matrix.tsv`. Obtain the public processed counts from GEO before running it. The script requires R and DESeq2.
 
 ## Analysis overview
 
@@ -24,7 +32,7 @@ These bulk-expression and inferred-abundance results do not establish cell-intri
 
 ## Repository status
 
-Analysis scripts, software/session information, derived result tables, and figure source files still need to be added and checked before this repository can be cited as a complete reproducibility archive. No versioned release or DOI has been issued yet.
+Additional analysis scripts, software/session information, derived result tables, and figure source files still need to be added and checked before this repository can be cited as a complete reproducibility archive. No versioned release or DOI has been issued yet.
 
 ## Citation
 
