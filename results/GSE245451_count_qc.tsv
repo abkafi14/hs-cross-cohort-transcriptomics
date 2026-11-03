@@ -1,0 +1,17 @@
+sample_accession	sample_title	group	donor_id	library_size	genes_detected_gt0
+GSM7842945	HS lesion_13	lesion	13	11221154	17518
+GSM7842946	HS lesion_14	lesion	14	9808697	17749
+GSM7842947	HS lesion_2	lesion	2	8587877	17525
+GSM7842948	HS lesion_3	lesion	3	11049333	17681
+GSM7842949	HS lesion_6	lesion	6	11016217	17449
+GSM7842950	HS perilesional skin_13	perilesion	13	6993172	17358
+GSM7842951	HS perilesional skin_14	perilesion	14	9818483	17701
+GSM7842952	HS perilesional skin_2	perilesion	2	11472011	17434
+GSM7842953	HS perilesional skin_3	perilesion	3	8163144	17019
+GSM7842954	HS perilesional skin_6	perilesion	6	9890796	17008
+GSM7842955	healthy skin_14	healthy	14	11368842	17355
+GSM7842956	healthy skin_3	healthy	3	10387160	17638
+GSM7842957	healthy skin_4	healthy	4	9985675	17384
+GSM7842958	healthy skin_6	healthy	6	10359036	17814
+GSM7842959	healthy skin_8	healthy	8	9439244	17767
+GSM7842960	healthy skin_9	healthy	9	9143704	17945
