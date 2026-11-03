@@ -14,6 +14,7 @@ Expression count matrices remain hosted by GEO and are not included in this repo
 - `scripts/01_deseq2_discovery.R`: donor-blocked lesion-versus-perilesional analysis and secondary comparisons against healthy samples.
 - `metadata/`: sample metadata for both cohorts.
 - `results/GSE245451_count_qc.tsv`: sample-level count quality-control summary.
+- `results/concordant_shared_DEGs.csv`: 595 genes with significant, direction-concordant changes in both cohorts under the project's stated thresholds.
 
 The discovery script expects the processed count matrix at `data/processed/GSE245451/GSE245451_counts_matrix.tsv`. Obtain the public processed counts from GEO before running it. The script requires R and DESeq2.
 
@@ -32,7 +33,7 @@ These bulk-expression and inferred-abundance results do not establish cell-intri
 
 ## Repository status
 
-Additional analysis scripts, software/session information, derived result tables, and figure source files still need to be added and checked before this repository can be cited as a complete reproducibility archive. No versioned release or DOI has been issued yet.
+Additional analysis scripts, software/session information, other derived result tables, and figure files still need to be added and checked before this repository can be cited as a complete reproducibility archive. No versioned release or DOI has been issued yet.
 
 ## Citation
 
